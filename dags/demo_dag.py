@@ -6,7 +6,7 @@ from airflow import AirflowException
 
 args = {
     "owner": "ahmed",
-    "start_date": datetime(2022, 3, 11),
+    "start_date": datetime(2022, 3, 6),
 }
 
 with DAG(
